@@ -1,0 +1,23 @@
+COMANDOS PARA USO
+
+GET: Buscar todos os autores.
+http://localhost:8080/autor/listar
+
+GET: Buscar um autor específico pelo id.
+http://localhost:8080/autor/buscar/{id}
+
+POST: Criar um novo autor.
+http://localhost:5432/autor/salvar
+
+PUT: Editar informações de um autor existente.
+http://localhost:8080/autor/editar/{id}
+
+DELETE: Deletar um autor pelo id.
+http://localhost:8080/autor/excluir/{id}
+
+GET: Buscar todos os livros ou um livro específico pelo id.
+http://localhost:8080/livro/listar
+http://localhost:8080/livro/buscar/{id}
+
+GET: Criar um endpoint que retorne todos os autores e, para cada autor, traga todos os livros que ele escreveu.
+http://localhost:8080/autor/listar-com-livros
